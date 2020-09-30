@@ -1,6 +1,3 @@
 require "galter_ir_exporter/version"
-
-module GalterIrExporter
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "galter_ir_exporter/export"
+require "galter_ir_exporter/migration"
