@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Data exporter for Sufia6}
   spec.description   = %q{Exports data from GenericFile and Collection to json output}
   spec.homepage      = "https://github.com/galterlibrary/galter_ir_exporter"
+  spec.license       = "Apache-2.0" #Apache License, Version 2.0
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
