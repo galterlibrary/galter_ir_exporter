@@ -11,7 +11,7 @@ module GalterIrExporter
 
     # Setup the database migrations
     def copy_migrations
-      migration_template "create_galter_ir_exporter_migration_survey_items.rb", "db/migrate/galter_ir_exporter_migration_survey_items.rb"
+      migration_template "create_galter_ir_exporter_migration_survey_items.rb", "db/migrate/create_galter_ir_exporter_migration_survey_items.rb"
     end
   end
 end
