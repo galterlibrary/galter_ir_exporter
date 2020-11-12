@@ -16,7 +16,7 @@ And then execute:
 
 Run the installer, creating the necessary migration files:
 
-    $ bundle exec rails galter_ir_exporter:install
+    $ bundle exec rails generate galter_ir_exporter:install
 
 Run the migration:
 
@@ -43,6 +43,17 @@ Pass the `--help` option to view the ways to override the exported fields for yo
 ## Development
 
 TODO: Add when [#7](https://github.com/galterlibrary/galter_ir_exporter/issues/7) is resolved.
+
+### Testing Your Changes In Your Samvera/Sufia6 App
+
+Branch from master, make any changes to the gem, then push your branch to this repository. Then, add the
+following to your samvera/sufia6 app's Gemfile. Once everything is installed add the following to the
+digital-repository Gemfile:
+
+`gem 'galter_ir_exporter', git: 'https://github.com/galterlibrary/galter_ir_exporter.git', branch: 'your-branch-name'`
+
+Run bundler again and the changes pushed to your-branch-name will be pulled. If you have previously installed
+'galter_ir_exporter' you may need to uninstall the gem with: `gem uninstall galter_ir_exporter`.
 
 ## Contributing
 

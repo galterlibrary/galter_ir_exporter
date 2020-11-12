@@ -5,7 +5,7 @@ require "galter_ir_exporter/version"
 Gem::Specification.new do |spec|
   spec.name          = "galter_ir_exporter"
   spec.version       = GalterIrExporter::VERSION
-  spec.authors       = ["Austin Sharp"]
+  spec.authors       = ["Austin Sharp", "Eric Newman"]
   spec.email         = ["galter-is@listserv.it.northwestern.edu"]
 
   spec.summary       = %q{Data exporter for Sufia6}
