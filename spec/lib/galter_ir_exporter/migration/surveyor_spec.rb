@@ -6,7 +6,7 @@ describe GalterIrExporter::Migration::Survey::Surveyor, type: :model do
       col.apply_depositor_metadata("jilluser")
     end
   end
-  let(:file) { create :generic_file, title: ["my title"] }
+  let(:file) { FactoryGirl.create :generic_file, title: ["my title"] }
 
   subject { described_class }
   it { is_expected.to respond_to(:call) }
