@@ -12,3 +12,6 @@
 
 Gemfile.lock
 *.swp
+.byebug_history
+
+.internal_test_app

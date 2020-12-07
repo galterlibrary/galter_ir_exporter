@@ -1,6 +1,10 @@
 require "bundler/setup"
 require "galter_ir_exporter"
 
+# spec fixes
+require "active_fedora"
+require "generic_file"
+
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
