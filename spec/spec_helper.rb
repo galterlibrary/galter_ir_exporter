@@ -5,6 +5,10 @@ require "galter_ir_exporter"
 require "active_fedora"
 require "generic_file"
 
+# engine cart requires this for testing
+require 'engine_cart'
+EngineCart.load_application!
+
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
